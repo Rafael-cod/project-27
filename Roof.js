@@ -16,7 +16,7 @@ class Roof {
       push();
       translate(pos.x, pos.y);
       rectMode(CENTER);
-      fill(150);
+      fill(255);
       rect(0,0,this.width,this.height);
       pop();
     }
